@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(56, 54, 58);
+}
+.inputfield {
+  width: 100%;
+  margin-top: 20px;
+}
+.inputChild {
+  width: 50%;
+  padding: 20px;
+  margin: 0px auto;
+  text-align: center;
+}
+#city-name:focus {
+  outline: none;
+}
+#city-name {
+  font-size: 18px;
+  padding: 6px;
+  width: 55%;
+}
+.displayfield {
+  width: 50%;
+  padding: 50px;
+  margin: 10px auto;
+}
+.displayfield h1 {
+  color: rgb(53, 6, 222);
+  margin-bottom: 10px;
+}
+.displayChild {
+  background-color: azure;
+  margin: 5px auto;
+  text-align: center;
+  padding: 80px;
+}
+.temp,
+.desc {
+  font-size: 22px;
+  margin: 10px 0;
+}
+.btn {
+  border: none;
+  background-color: rgb(6, 117, 244);
+  font-size: 18px;
+  padding: 7px;
+}
+.btn-unit {
+  background-color: rgb(6, 117, 244);
+  position: absolute;
+  top: 60%;
+  left: 46%;
+  border: none;
+  width: 8%;
+  padding: 8px;
+  border-radius: 10px;
+}
+.botton:hover {
+  background-color: rgb(85, 128, 227);
+}
+.botton {
+  font-size: 18px;
+}
+.loading {
+  color: white;
+  text-align: center;
+  width: 50%;
+  padding: 50px;
+  margin: 80px auto;
+}
+@media only screen and (max-width: 768px) {
+  .displayfield {
+    width: 70%;
+  }
+  .displayChild {
+    width: 70%;
+  }
+  .btn-unit {
+    top: 54%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .displayfield {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .displayChild {
+    width: 90%;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+  }
+  .btn-unit {
+    top: 60%;
+    padding:8px;
+    width:20%;
+    margin-top: 18px;
+    left: 42%;
+  }
+  .inputChild {
+    width: 80%;
+  }
+}
+@media only screen and (max-width:375px){
+  .btn-unit{
+    left:41%;
+  }
+  .inputfield{
+    margin-left:5px;
+  }
+}
+@media only screen and (max-width:320px){
+  .btn-unit{
+    top:65%;
+    left:43%
+  }
+  .inputfield{
+    margin-left:6px;
+  }
+}
